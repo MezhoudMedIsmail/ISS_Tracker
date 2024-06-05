@@ -4,10 +4,10 @@ import time
 import requests
 from datetime import datetime
 
-MY_LAT = 36.817421  # latitude of my house in skik
-MY_LONG = 10.151432  # longitude of my house in skik
-my_email = "ismailmezhoud2@gmail.com"
-password = "kcoa lvch krjd dpvy"
+MY_LAT = 36.817421  # latitude 
+MY_LONG = 10.151432  # longitude 
+my_email = "********" # put your email right here
+password = "********" # put your generated password here
 
 def iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
